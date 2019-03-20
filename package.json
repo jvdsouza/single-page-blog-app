@@ -1,0 +1,18 @@
+{
+  "name": "blog-app-front-end",
+  "version": "1.0.0",
+  "description": "front end application for a single page blog",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^8.0.3",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4"
+  }
+}
