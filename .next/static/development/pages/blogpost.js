@@ -9985,7 +9985,7 @@ BlogPost.getInitialProps = function (context) {
 
 /***/ }),
 
-/***/ 3:
+/***/ 2:
 /*!***********************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fblogpost&absolutePagePath=D%3A%5Ccode%5Cgithub-projects%5Cbasic-one-page-blog%5CBlog-App-Front-End%5Cpages%5Cblogpost.js ***!
   \***********************************************************************************************************************************************************************/
@@ -10008,5 +10008,5 @@ module.exports = dll_55dc4e2ecf7824085104;
 
 /***/ })
 
-},[[3,"static/runtime/webpack.js"]]]));;
+},[[2,"static/runtime/webpack.js"]]]));;
 //# sourceMappingURL=blogpost.js.map

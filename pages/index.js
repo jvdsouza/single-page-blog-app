@@ -12,9 +12,11 @@ const Index = () => {
     return(
         <div>
             <h1>Single page blog - by me</h1>
-            <Post slug='first' title='first blog post' />
-            <Post slug='second' title='second blog post' />
-            <Post slug='last' title='final blog post' />
+            <Post slug='first' title='my first post' />
+            <Post slug='second' title='My second blog post' />
+            <Post slug='third' title='My third post' />
+            <Post slug='fourth' title='Fourth post' />
+            <Post slug='fifth' title='my final post' />
         </div>
     )
 }
