@@ -9933,7 +9933,7 @@ var Index = function Index() {
     __self: this
   }, "Single page blog - by me"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Post, {
     slug: "first",
-    title: "first post",
+    title: "first blog post",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 15
@@ -9941,7 +9941,7 @@ var Index = function Index() {
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Post, {
     slug: "second",
-    title: "second post",
+    title: "second blog post",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 16
@@ -9949,7 +9949,7 @@ var Index = function Index() {
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Post, {
     slug: "last",
-    title: "final post",
+    title: "final blog post",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 17
