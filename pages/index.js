@@ -1,5 +1,7 @@
-import Link from 'next/link'
+import Link from 'next/link';
+import Head from 'next/head';
 import fetch from 'isomorphic-unfetch';
+import Card from '../components/BlogCard/BlogCard';
 
 const Post = (props) => (
         <Link as={`/${props.slug}`} href={`/blogpost?title=${props.title}`}>
@@ -8,26 +10,50 @@ const Post = (props) => (
 )
 
 const Index = (props) => {
-    return !props.postContent[0] ?
+    return !props.postContent ?
     (<h1>Loading...</h1>)
     :
     (
         <div>
+            <Head>
+                <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"/>
+                <link rel="stylesheet" href="./static/blog.css"/>
+            </Head>
             <h1>My blog - by me</h1>
-            <div>
+            <ul style={{
+                listStyleType: 'none'
+                }}
+            >
                 {
                     props.postContent.map((post, i) => (
-                        <li key={post._id}>
-                            <Post 
-                                slug={i}
-                                title={post.title}
-                            />
-                            <br/>
-                            <span>{post.body.slice(0, 20)}...</span>
+                        <li 
+                            key={post._id} 
+                            style={{
+                                margin: '10px', 
+                                width: '50%'
+                            }}
+                        >
+                            <Card>
+                                <Post 
+                                    slug={i}
+                                    title={post.title}
+                                />
+                                <br/>
+                                <span>
+                                {
+                                    post.body.length > 100 ? 
+                                        post.body.slice(0, 100) + '...'
+                                        :
+                                        post.body
+                                }
+                                </span>
+                            </Card>
                         </li>
+                            
                     ))
                 }
-            </div>
+            </ul>
+            <footer style={{paddingTop: '50vh'}}>Made by Jason, with NextJS for React</footer>
         </div>
     )
 }
