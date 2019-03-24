@@ -4,12 +4,17 @@ import fetch from 'isomorphic-unfetch';
 const BlogPost = (props) => {
     const title = props.url.query.title;
     
-    return (
+    return !props.content[0].title ? 
+        <h1>Loading...</h1>
+        :
+        (
         <div>
             <h1>Hello welcome to {title}</h1>
             <h1>blog post: {title}</h1>
             <div>
-                {props.content} 200 OK
+                {props.content[0].title} 
+                <br/>
+                {props.content[0].body} 
             </div>
             <Link href='/'>
                 <a>Home</a>
