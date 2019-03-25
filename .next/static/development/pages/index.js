@@ -10750,7 +10750,7 @@ Index.getInitialProps = function () {
 
 /***/ }),
 
-/***/ 1:
+/***/ 2:
 /*!************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=D%3A%5Ccode%5Cgithub-projects%5Cbasic-one-page-blog%5CBlog-App-Front-End%5Cpages%5Cindex.js ***!
   \************************************************************************************************************************************************************/
@@ -10773,5 +10773,5 @@ module.exports = dll_55dc4e2ecf7824085104;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js"]]]));;
+},[[2,"static/runtime/webpack.js"]]]));;
 //# sourceMappingURL=index.js.map
