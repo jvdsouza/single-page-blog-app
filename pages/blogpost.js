@@ -27,7 +27,7 @@ const BlogPost = (props) => {
 
 BlogPost.getInitialProps = (context) => {
     const {title} = context.query
-    return fetch(`http://localhost:3001/${title}`)
+    return fetch(`${process.env.REACT_APP_APISITE}/${title}`)
             .then(response => {
                 return response.json();
             })

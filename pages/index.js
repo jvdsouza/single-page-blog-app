@@ -57,7 +57,7 @@ const Index = (props) => {
 }
 
 Index.getInitialProps = () => {
-    return fetch(`http://localhost:3001/home`)
+    return fetch(`${process.env.REACT_APP_APISITE}/home`)
         .then(response => {
             return response.json()
         })

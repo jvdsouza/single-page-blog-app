@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -1252,7 +1252,7 @@ var Index = function Index(props) {
 };
 
 Index.getInitialProps = function () {
-  return isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_3___default()("http://localhost:3001/home").then(function (response) {
+  return isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_3___default()("".concat("http://localhost:3001", "/home")).then(function (response) {
     return response.json();
   }).then(function (posts) {
     return {
@@ -1267,7 +1267,7 @@ Index.getInitialProps = function () {
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/

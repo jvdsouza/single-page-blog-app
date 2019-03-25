@@ -10734,7 +10734,7 @@ var Index = function Index(props) {
 };
 
 Index.getInitialProps = function () {
-  return isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_3___default()("http://localhost:3001/home").then(function (response) {
+  return isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_3___default()("".concat("http://localhost:3001", "/home")).then(function (response) {
     return response.json();
   }).then(function (posts) {
     return {
@@ -10749,7 +10749,7 @@ Index.getInitialProps = function () {
 
 /***/ }),
 
-/***/ 1:
+/***/ 2:
 /*!************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=D%3A%5Ccode%5Cgithub-projects%5Cbasic-one-page-blog%5CBlog-App-Front-End%5Cpages%5Cindex.js ***!
   \************************************************************************************************************************************************************/
@@ -10772,5 +10772,5 @@ module.exports = dll_55dc4e2ecf7824085104;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js"]]]));;
+},[[2,"static/runtime/webpack.js"]]]));;
 //# sourceMappingURL=index.js.map
