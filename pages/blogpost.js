@@ -1,4 +1,5 @@
-import Link from 'next/link'
+import Link from 'next/link';
+import Head from 'next/head';
 import fetch from 'isomorphic-unfetch';
 
 const BlogPost = (props) => {
@@ -9,11 +10,12 @@ const BlogPost = (props) => {
         :
         (
         <div>
-            <h1>Hello welcome to {title}</h1>
+            <Head>
+                <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"/>
+                <link rel="stylesheet" href="./static/blog.css"/>
+            </Head>
             <h1>blog post: {title}</h1>
-            <div>
-                {props.content[0].title} 
-                <br/>
+            <div style={{marginBottom: "10px"}}>
                 {props.content[0].body} 
             </div>
             <Link href='/'>

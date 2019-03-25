@@ -4,7 +4,7 @@ import fetch from 'isomorphic-unfetch';
 import Card from '../components/BlogCard/BlogCard';
 
 const Post = (props) => (
-        <Link as={`/${props.slug}`} href={`/blogpost?title=${props.title}`}>
+        <Link prefetch as={`/${props.slug}`} href={`/blogpost?title=${props.title}`}>
             <a>{props.title}</a>
         </Link>
 )
@@ -22,8 +22,7 @@ const Index = (props) => {
             <h1>My blog - by me</h1>
             <ul style={{
                 listStyleType: 'none'
-                }}
-            >
+                }}>
                 {
                     props.postContent.map((post, i) => (
                         <li 
@@ -31,13 +30,11 @@ const Index = (props) => {
                             style={{
                                 margin: '10px', 
                                 width: '50%'
-                            }}
-                        >
+                            }}>
                             <Card>
                                 <Post 
-                                    slug={i}
-                                    title={post.title}
-                                />
+                                    slug={post.title.replace(/\s/g,'')}
+                                    title={post.title}/>
                                 <br/>
                                 <span>
                                 {

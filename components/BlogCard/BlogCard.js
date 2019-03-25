@@ -5,8 +5,7 @@ const Card = (props) => {
                 border: '2px solid #D3D3D3', 
                 borderRadius:'10px',
                 boxShadow: '5px 5px 5px grey',
-                padding: '10px'
-            }}>
+                padding: '10px'}}>
             {props.children}
         </div>
     )
