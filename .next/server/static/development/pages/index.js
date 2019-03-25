@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -114,7 +114,8 @@ var Card = function Card(props) {
       border: '2px solid #D3D3D3',
       borderRadius: '10px',
       boxShadow: '5px 5px 5px grey',
-      padding: '10px'
+      padding: '10px',
+      backgroundColor: 'white'
     },
     __source: {
       fileName: _jsxFileName,
@@ -1267,7 +1268,7 @@ Index.getInitialProps = function () {
 
 /***/ }),
 
-/***/ 4:
+/***/ 3:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/
