@@ -1,0 +1,39 @@
+{
+  "modules": {
+    "byIdentifier": {
+      "multi node_modules/next/dist/client/next": 0
+    },
+    "usedIds": {
+      "0": 0
+    }
+  },
+  "chunks": {
+    "byName": {
+      "commons": 0,
+      "static/runtime/webpack.js": 1,
+      "static/runtime/main.js": 2,
+      "static\\WZZyrGcZ5vSokiZDQ6wMY\\pages\\_app.js": 3,
+      "static\\WZZyrGcZ5vSokiZDQ6wMY\\pages\\_error.js": 4,
+      "static\\WZZyrGcZ5vSokiZDQ6wMY\\pages\\blogpost.js": 5,
+      "static\\WZZyrGcZ5vSokiZDQ6wMY\\pages\\index.js": 6,
+      "static\\0ySkWz8PFlR8yXR_OIh8H\\pages\\_app.js": 7,
+      "static\\0ySkWz8PFlR8yXR_OIh8H\\pages\\_error.js": 8,
+      "static\\0ySkWz8PFlR8yXR_OIh8H\\pages\\blogpost.js": 9,
+      "static\\0ySkWz8PFlR8yXR_OIh8H\\pages\\index.js": 10,
+      "static\\icjTuT3I6~x5bHjGMPB_3\\pages\\_app.js": 3,
+      "static\\icjTuT3I6~x5bHjGMPB_3\\pages\\_error.js": 4,
+      "static\\icjTuT3I6~x5bHjGMPB_3\\pages\\blogpost.js": 5,
+      "static\\icjTuT3I6~x5bHjGMPB_3\\pages\\index.js": 6
+    },
+    "bySource": {},
+    "usedIds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  }
+}
