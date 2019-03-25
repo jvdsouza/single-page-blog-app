@@ -35,6 +35,7 @@ const Index = (props) => {
                                 <Post 
                                     slug={post.title.replace(/\s/g,'')}
                                     title={post.title}/>
+                                {post.created_at}
                                 <br/>
                                 <span>
                                 {
