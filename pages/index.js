@@ -21,7 +21,7 @@ const Index = (props) => {
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <meta charSet="utf-8" />
             </Head>
-            <h1>My blog - by me</h1>
+            <h1>My blog - by me 🤪</h1>
             <ul style={{
                 listStyleType: 'none'
                 }}>
