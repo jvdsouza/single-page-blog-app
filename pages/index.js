@@ -39,13 +39,10 @@ const Index = (props) => {
                                     title={post.title}/>
                                 {post.created_at}
                                 <br/>
-                                <span>
-                                {
-                                    post.body.length > 100 ? 
-                                        post.body.slice(0, 100) + '...'
-                                        :
-                                        post.body
-                                }
+                                <span dangerouslySetInnerHTML={{__html: post.body.length > 100 ?
+                                                                        post.body.slice(0,100) + ' ...'
+                                                                    :
+                                                                    post.body}}>
                                 </span>
                             </Card>
                         </li>

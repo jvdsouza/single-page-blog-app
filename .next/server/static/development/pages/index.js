@@ -1186,10 +1186,25 @@ var Index = function Index(props) {
       lineNumber: 20
     },
     __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
+    name: "viewport",
+    content: "width=device-width, initial-scale=1",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
+    charSet: "utf-8",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 22
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
     },
     __self: this
   }, "My blog - by me"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
@@ -1198,7 +1213,7 @@ var Index = function Index(props) {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23
+      lineNumber: 25
     },
     __self: this
   }, props.postContent.map(function (post, i) {
@@ -1210,13 +1225,13 @@ var Index = function Index(props) {
       },
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 28
+        lineNumber: 30
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_BlogCard_BlogCard__WEBPACK_IMPORTED_MODULE_4__["default"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 34
+        lineNumber: 36
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Post, {
@@ -1224,29 +1239,32 @@ var Index = function Index(props) {
       title: post.title,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 35
+        lineNumber: 37
       },
       __self: this
     }), post.created_at, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 39
+        lineNumber: 41
       },
       __self: this
     }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+      dangerouslySetInnerHTML: {
+        __html: post.body.length > 100 ? post.body.slice(0, 100) + ' ...' : post.body
+      },
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 40
+        lineNumber: 42
       },
       __self: this
-    }, post.body.length > 100 ? post.body.slice(0, 100) + '...' : post.body)));
+    })));
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("footer", {
     style: {
       paddingTop: '50vh'
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 54
+      lineNumber: 53
     },
     __self: this
   }, "Made by Jason, with NextJS for React"));
