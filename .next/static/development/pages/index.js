@@ -10702,7 +10702,7 @@ var Index = function Index(props) {
       key: post._id,
       style: {
         margin: '10px',
-        width: '50%'
+        width: '500px'
       },
       __source: {
         fileName: _jsxFileName,
@@ -10734,26 +10734,23 @@ var Index = function Index(props) {
     }, post.created_at.slice(0, 10)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 40
+        lineNumber: 42
       },
       __self: this
-    }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       dangerouslySetInnerHTML: {
         __html: post.body.length > 100 ? post.body.slice(0, 100) + ' ...' : post.body
       },
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 41
+        lineNumber: 43
       },
       __self: this
     })));
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("footer", {
-    style: {
-      paddingTop: '50vh'
-    },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 52
+      lineNumber: 54
     },
     __self: this
   }, "Made by Jason, with NextJS for React"));

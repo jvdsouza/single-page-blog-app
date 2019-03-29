@@ -31,25 +31,27 @@ const Index = (props) => {
                             key={post._id} 
                             style={{
                                 margin: '10px', 
-                                width: '50%'
+                                width: '500px'
                             }}>
                             <Card>
                                 <Post 
                                     title={post.title}/>
-                                <span style={{marginLeft:'10px'}}>{post.created_at.slice(0, 10)}</span>
-                                <br/>
-                                <span dangerouslySetInnerHTML={{__html: post.body.length > 100 ?
-                                                                        post.body.slice(0,100) + ' ...'
-                                                                    :
-                                                                    post.body}}>
+                                <span style={{marginLeft:'10px'}}>
+                                    {post.created_at.slice(0, 10)}
                                 </span>
+                                <br/>
+                                <div dangerouslySetInnerHTML={{__html: post.body.length > 100 ?
+                                                                        post.body.slice(0,100) + ' ...'
+                                                                        :
+                                                                        post.body}}>
+                                </div>
                             </Card>
                         </li>
                             
                     ))
                 }
             </ul>
-            <footer style={{paddingTop: '50vh'}}>Made by Jason, with NextJS for React</footer>
+            <footer>Made by Jason, with NextJS for React</footer>
         </div>
     )
 }

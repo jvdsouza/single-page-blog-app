@@ -17,8 +17,9 @@ const BlogPost = (props) => {
                 <meta charSet="utf-8" />
             </Head>
             <h1>blog post: {title}</h1>
-            <div dangerouslySetInnerHTML={{__html: props.content[0].body}} style={{marginBottom: "10px"}}>
-                {/* {props.content[0].body}  */}
+            <div 
+                dangerouslySetInnerHTML={{__html: props.content[0].body}} 
+                style={{marginBottom: "10px"}}>
             </div>
             
             <Link href='/'>
