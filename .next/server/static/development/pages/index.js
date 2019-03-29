@@ -1242,7 +1242,16 @@ var Index = function Index(props) {
         lineNumber: 37
       },
       __self: this
-    }), post.created_at, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+    }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+      style: {
+        marginLeft: '10px'
+      },
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 40
+      },
+      __self: this
+    }, post.created_at.slice(0, 10)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
       __source: {
         fileName: _jsxFileName,
         lineNumber: 41

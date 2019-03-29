@@ -37,7 +37,7 @@ const Index = (props) => {
                                 <Post 
                                     slug={post.title.replace(/\s/g,'')}
                                     title={post.title}/>
-                                {post.created_at}
+                                <span style={{marginLeft:'10px'}}>{post.created_at.slice(0, 10)}</span>
                                 <br/>
                                 <span dangerouslySetInnerHTML={{__html: post.body.length > 100 ?
                                                                         post.body.slice(0,100) + ' ...'
