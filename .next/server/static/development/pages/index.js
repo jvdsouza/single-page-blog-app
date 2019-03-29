@@ -1135,7 +1135,6 @@ var _jsxFileName = "D:\\code\\github-projects\\basic-one-page-blog\\Blog-App-Fro
 var Post = function Post(props) {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     prefetch: true,
-    as: "/".concat(props.slug),
     href: "/blogpost?title=".concat(props.title),
     __source: {
       fileName: _jsxFileName,
@@ -1235,7 +1234,6 @@ var Index = function Index(props) {
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Post, {
-      slug: post.title.replace(/\s/g, ''),
       title: post.title,
       __source: {
         fileName: _jsxFileName,
@@ -1248,13 +1246,13 @@ var Index = function Index(props) {
       },
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 40
+        lineNumber: 39
       },
       __self: this
     }, post.created_at.slice(0, 10)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 41
+        lineNumber: 40
       },
       __self: this
     }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
@@ -1263,7 +1261,7 @@ var Index = function Index(props) {
       },
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 42
+        lineNumber: 41
       },
       __self: this
     })));
@@ -1273,7 +1271,7 @@ var Index = function Index(props) {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 53
+      lineNumber: 52
     },
     __self: this
   }, "Made by Jason, with NextJS for React"));

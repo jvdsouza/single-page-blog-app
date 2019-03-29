@@ -4,7 +4,7 @@ import fetch from 'isomorphic-unfetch';
 import Card from '../components/BlogCard/BlogCard';
 
 const Post = (props) => (
-        <Link prefetch as={`/${props.slug}`} href={`/blogpost?title=${props.title}`}>
+        <Link prefetch href={`/blogpost?title=${props.title}`}>
             <a>{props.title}</a>
         </Link>
 )
@@ -35,7 +35,6 @@ const Index = (props) => {
                             }}>
                             <Card>
                                 <Post 
-                                    slug={post.title.replace(/\s/g,'')}
                                     title={post.title}/>
                                 <span style={{marginLeft:'10px'}}>{post.created_at.slice(0, 10)}</span>
                                 <br/>
@@ -65,5 +64,6 @@ Index.getInitialProps = () => {
         })
         .catch(err => console.log(err))
 } 
+
 
 export default Index
