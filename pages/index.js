@@ -27,27 +27,24 @@ const Index = (props) => {
                 }}>
                 {
                     props.postContent.map((post, i) => (
-                        <li 
-                            key={post._id} 
-                            style={{
-                                margin: '10px', 
-                                width: '500px'
-                            }}>
-                            <Card>
-                                <Post 
-                                    title={post.title}/>
-                                <span style={{marginLeft:'10px'}}>
-                                    {post.created_at.slice(0, 10)}
-                                </span>
-                                <br/>
-                                <div dangerouslySetInnerHTML={{__html: post.body.length > 100 ?
-                                                                        post.body.slice(0,100) + ' ...'
-                                                                        :
-                                                                        post.body}}>
-                                </div>
-                            </Card>
-                        </li>
-                            
+                            <li 
+                                key={post._id} 
+                                style={{
+                                    margin: '10px', 
+                                    width: '500px'
+                                }}>
+                                <Card>
+                                    <Post 
+                                        title={post.title}/>
+                                    <span style={{marginLeft:'10px'}}>
+                                        {post.created_at.slice(0, 10)}
+                                    </span>
+                                    <br/>
+                                    <div dangerouslySetInnerHTML={{__html: post.body}}>
+                                    </div>
+                                </Card>
+                            </li>
+                        
                     ))
                 }
             </ul>

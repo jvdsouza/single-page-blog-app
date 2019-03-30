@@ -10739,7 +10739,7 @@ var Index = function Index(props) {
       __self: this
     }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       dangerouslySetInnerHTML: {
-        __html: post.body.length > 100 ? post.body.slice(0, 100) + ' ...' : post.body
+        __html: post.body
       },
       __source: {
         fileName: _jsxFileName,
@@ -10750,7 +10750,7 @@ var Index = function Index(props) {
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("footer", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 54
+      lineNumber: 51
     },
     __self: this
   }, "Made by Jason, with NextJS for React"));
