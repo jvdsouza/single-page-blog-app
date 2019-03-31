@@ -2,6 +2,7 @@ import Link from 'next/link';
 import Head from 'next/head';
 import fetch from 'isomorphic-unfetch';
 import Card from '../components/BlogCard/BlogCard';
+import TypeWriter from '../components/TypeWriterEffect/TypeWriterEffect';
 
 const Post = (props) => (
         <Link prefetch href={`/blogpost?title=${props.title}`}>
@@ -21,7 +22,7 @@ const Index = (props) => {
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <meta charSet="utf-8" />
             </Head>
-            <h1>My blog - by me</h1>
+            <h1>><TypeWriter sentence={"My Blog - By Me"} /></h1>
             <ul style={{
                 listStyleType: 'none'
                 }}>
