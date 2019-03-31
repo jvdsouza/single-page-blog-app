@@ -18,10 +18,11 @@ var _jsxFileName = "D:\\code\\github-projects\\basic-one-page-blog\\Blog-App-Fro
 var Card = function Card(props) {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     style: {
-      border: '2px solid #D3D3D3',
-      borderRadius: '10px',
-      boxShadow: '5px 5px 5px grey',
+      borderTop: '2px solid #D3D3D3',
+      // borderRadius:'10px',
+      // boxShadow: '5px 5px 5px grey',
       padding: '10px',
+      paddingBottom: '0px',
       backgroundColor: 'white'
     },
     __source: {
@@ -10893,26 +10894,20 @@ var Index = function Index(props) {
         lineNumber: 41
       },
       __self: this
-    }, post.created_at.slice(0, 10)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 44
-      },
-      __self: this
-    }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    }, post.created_at.slice(0, 10)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       dangerouslySetInnerHTML: {
         __html: post.body
       },
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 45
+        lineNumber: 44
       },
       __self: this
     })));
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("footer", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 53
+      lineNumber: 52
     },
     __self: this
   }, "Made by Jason, with NextJS for React"));

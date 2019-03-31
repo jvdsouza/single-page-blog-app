@@ -18,7 +18,6 @@ const Index = (props) => {
         <div>
             <Head>
                 <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"/>
-                {/* <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet"/> */}
                 <link rel="stylesheet" href="./static/blog.css"/>
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <meta charSet="utf-8" />
@@ -33,7 +32,7 @@ const Index = (props) => {
                                 key={post._id} 
                                 style={{
                                     margin: '10px', 
-                                    width: '500px'
+                                    width: '500px',
                                 }}>
                                 <Card>
                                     <Post 
@@ -41,7 +40,6 @@ const Index = (props) => {
                                     <span style={{marginLeft:'10px'}}>
                                         {post.created_at.slice(0, 10)}
                                     </span>
-                                    <br/>
                                     <div dangerouslySetInnerHTML={{__html: post.body}}>
                                     </div>
                                 </Card>
