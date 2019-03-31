@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import Head from 'next/head';
 
 class TypeWriter extends Component {
     constructor() {
@@ -32,7 +33,13 @@ class TypeWriter extends Component {
     render() {
         const sentence = this.state.sentencePrinted
         return (
-            <span>{sentence}</span>
+            <div>
+                <Head>
+                    <link href="https://fonts.googleapis.com/css?family=Sriracha" rel="stylesheet"></link>
+                    <link rel="stylesheet" href="../../static/typewriter.css"/>
+                </Head>
+                <span id="heading">{sentence}</span>
+            </div>
         )
     }
 }

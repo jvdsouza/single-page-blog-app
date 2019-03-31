@@ -18,11 +18,12 @@ const Index = (props) => {
         <div>
             <Head>
                 <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"/>
+                {/* <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet"/> */}
                 <link rel="stylesheet" href="./static/blog.css"/>
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <meta charSet="utf-8" />
             </Head>
-            <h1>><TypeWriter sentence={"My Blog - By Me"} /></h1>
+            <h1 id="header"><TypeWriter sentence={"My Blog - By Me"} /></h1>
             <ul style={{
                 listStyleType: 'none'
                 }}>

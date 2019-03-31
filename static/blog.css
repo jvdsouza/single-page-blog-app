@@ -1,4 +1,12 @@
-body {
+body ul {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
     font-family: 'Montserrat', sans-serif;
     background-image: url('pikachubg.jpg');
+}
+
+#header { 
+    display: flex;
+    justify-content: center;
 }
