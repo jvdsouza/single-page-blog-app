@@ -63,7 +63,7 @@ body {
     transition: color .15s ease-in;
 }
 
-.link:link, .link:visited {
+.link:link {
     transition: color .15s ease-in;
 }
 
@@ -156,4 +156,17 @@ body ul {
 
 footer {
     position: absolute;
+}
+
+/* phone portrait */
+@media only screen 
+  and (max-device-width: 540px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    #header-wrapper h1 {
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        font-size: 30px;
+    }
 }

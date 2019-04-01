@@ -22,7 +22,7 @@ const BlogPost = (props) => {
                 style={{marginBottom: "10px"}}>
             </div>
             
-            <Link href='/'>
+            <Link href='/#body-wrapper'>
                 <a>Home</a>
             </Link>
             
