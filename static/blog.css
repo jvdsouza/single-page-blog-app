@@ -12,36 +12,148 @@ body {
     padding: 0;
     height: 100vh;
     background-image: url('pikachubg.jpg');
-    font-family: sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #header-wrapper {
     height: 100vh;
     width: 100vw;
     display: flex;
+    flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
+    color: white;
     background-color: black;
+}
+
+#header { 
+    margin: 0;
+    display: flex;
+    font-size: 60px;
+}
+
+/* tachyons button */
+.ba {
+    border-style: solid;
+    border-width: 1px;
+}
+
+.bw1 {
+    border-width: .125rem;
+}
+
+.bw2 {
+    border-width: .25rem;
+}
+
+.dib {
+    display: inline-block;
+}
+
+.fw6 {
+    font-weight: 600;
+}
+
+.tracked {
+    letter-spacing: .1em;
+}
+
+.link {
+    text-decoration: none;
+    transition: color .15s ease-in;
+}
+
+.link:link, .link:visited {
+    transition: color .15s ease-in;
+}
+
+.link:hover {
+    transition: color .15s ease-in;
+}
+
+.link:active {
+    transition: color .15s ease-in;
+}
+
+.link:focus {
+    transition: color .15s ease-in;
+    outline: 1px dotted currentColor;
+}
+
+.white {
+    color: #fff;
+}
+
+.pv2 {
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+.ph3 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.mb2 {
+    margin-bottom: .5rem;
+}
+
+.mb4 {
+    margin-bottom: 2rem;
+}
+
+.mt4 {
+    margin-top: 2rem;
+}
+
+.ttu {
+    text-transform: uppercase;
+}
+
+.f6 {
+    font-size: .875rem;
+}
+
+.dim {
+    opacity: 1;
+    transition: opacity .15s ease-in;
+}
+
+.dim:hover, .dim:focus {
+    opacity: .5;
+    transition: opacity .15s ease-in;
+}
+
+.dim:active {
+    opacity: .8;
+    transition: opacity .15s ease-out;
+}
+
+/* tachyons button end */
+
+#introduction {
+    width: 50vw;
+    margin-top: 2em;
+    margin-bottom: 2em;
 }
 
 body ul {
     display: flex;
     flex-flow: column nowrap;
     margin: 0;
+    margin-top: 10px;
     padding: 0;
     align-items: center;
 }
 
-#header { 
-    margin: 0;
+#body-wrapper {
+    height: 100vh;
+    width: 100vw;
     display: flex;
-    color: white;
+    flex-flow: column nowrap;
+    align-items: center;
 }
 
-#footer {
+footer {
     position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 0px;
-    font-family: 'Montserrat', sans-serif;
 }

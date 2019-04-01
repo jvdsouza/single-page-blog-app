@@ -1561,6 +1561,7 @@ var Index = function Index(props) {
     },
     __self: this
   }, "Loading...") : react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "main",
     style: {
       height: "100vh"
     },
@@ -1616,30 +1617,63 @@ var Index = function Index(props) {
     id: "header-wrapper",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26
+      lineNumber: 27
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
     id: "header",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27
+      lineNumber: 28
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_TypeWriterEffect_TypeWriterEffect__WEBPACK_IMPORTED_MODULE_5__["default"], {
-    sentence: "My Blog - By Me",
+    sentence: "My Blog - By Me.",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27
+      lineNumber: 28
     },
     __self: this
-  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29
+    },
+    __self: this
+  }, "Occasional dissections of life events"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    className: "f6 link dim ba bw1 ph3 pv2 mb2 dib white",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31
+    },
+    __self: this
+  }, "Begin Reading")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    id: "body-wrapper",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    id: "introduction",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35
+    },
+    __self: this
+  }, "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt orci nulla, quis venenatis diam facilisis vel. Nullam posuere tortor vel mauris vestibulum dictum. Vestibulum ut libero pulvinar, aliquam sapien vitae, hendrerit ligula. In ac auctor eros. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam ac efficitur dolor, et luctus ipsum. Ut rutrum dignissim ligula, id sagittis ex feugiat sit amet. Aliquam varius, justo ac scelerisque volutpat, purus nulla aliquet enim, et cursus augue nulla vitae turpis. Duis eu odio mattis, finibus leo in, ultricies risus. Suspendisse non dictum sapien. Duis sit amet auctor ligula, feugiat dapibus urna. Integer id augue nec mauris pellentesque accumsan eget eu ex. Integer ac lacinia erat, at aliquet purus."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
     style: {
       listStyleType: 'none'
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29
+      lineNumber: 38
     },
     __self: this
   }, props.postContent.map(function (post, i) {
@@ -1647,43 +1681,30 @@ var Index = function Index(props) {
       key: post._id,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 34
+        lineNumber: 43
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_BlogCard_BlogCard__WEBPACK_IMPORTED_MODULE_4__["default"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 35
+        lineNumber: 44
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Post, {
       title: post.title,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 36
+        lineNumber: 45
       },
       __self: this
     }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 37
+        lineNumber: 46
       },
       __self: this
     }, post.created_at.slice(0, 10))));
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    id: "footer",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 48
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("footer", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 49
-    },
-    __self: this
-  }, "Made by Jason, with NextJS for React")));
+  }))));
 };
 
 Index.getInitialProps = function () {
