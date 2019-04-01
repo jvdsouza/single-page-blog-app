@@ -1,0 +1,10 @@
+.blogCards {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    border-top: 2px solid #D3D3D3;
+    padding-bottom: 0;
+    width: 60vw;
+    height: 50px;
+    background-color: white;
+}

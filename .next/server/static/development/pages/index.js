@@ -102,29 +102,66 @@ module.exports =
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var next_server_head__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! next-server/head */ "next-server/head");
+/* harmony import */ var next_server_head__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(next_server_head__WEBPACK_IMPORTED_MODULE_6__);
+
+
+
+
+
 var _jsxFileName = "D:\\code\\github-projects\\basic-one-page-blog\\Blog-App-Front-End\\components\\BlogCard\\BlogCard.js";
-
-
 //A "card" to encapsulate each blog post in
-var Card = function Card(props) {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    style: {
-      borderTop: '2px solid #D3D3D3',
-      // borderRadius:'10px',
-      // boxShadow: '5px 5px 5px grey',
-      padding: '10px',
-      paddingBottom: '0px',
-      backgroundColor: 'white'
-    },
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 4
-    },
-    __self: this
-  }, props.children);
-};
+
+
+
+var Card =
+/*#__PURE__*/
+function (_Component) {
+  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(Card, _Component);
+
+  function Card() {
+    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, Card);
+
+    return Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(Card).apply(this, arguments));
+  }
+
+  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(Card, [{
+    key: "render",
+    value: function render() {
+      return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "blogCards",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 8
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(next_server_head__WEBPACK_IMPORTED_MODULE_6___default.a, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 9
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("link", {
+        rel: "stylesheet",
+        href: "./static/BlogCard.css",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 10
+        },
+        __self: this
+      })), this.props.children);
+    }
+  }]);
+
+  return Card;
+}(react__WEBPACK_IMPORTED_MODULE_5__["Component"]);
 
 /* harmony default export */ __webpack_exports__["default"] = (Card);
 
@@ -1524,6 +1561,9 @@ var Index = function Index(props) {
     },
     __self: this
   }, "Loading...") : react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    style: {
+      height: "100vh"
+    },
     __source: {
       fileName: _jsxFileName,
       lineNumber: 18
@@ -1535,12 +1575,18 @@ var Index = function Index(props) {
       lineNumber: 19
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("title", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20
+    },
+    __self: this
+  }, "My Blog"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
     href: "https://fonts.googleapis.com/css?family=Montserrat",
     rel: "stylesheet",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 21
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
@@ -1566,80 +1612,78 @@ var Index = function Index(props) {
       lineNumber: 24
     },
     __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
-    id: "header",
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    id: "header-wrapper",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 26
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    id: "header",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_TypeWriterEffect_TypeWriterEffect__WEBPACK_IMPORTED_MODULE_5__["default"], {
     sentence: "My Blog - By Me",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26
+      lineNumber: 27
     },
     __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
     style: {
       listStyleType: 'none'
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27
+      lineNumber: 29
     },
     __self: this
   }, props.postContent.map(function (post, i) {
     return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
       key: post._id,
-      style: {
-        margin: '10px',
-        width: '500px'
-      },
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 32
+        lineNumber: 34
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_BlogCard_BlogCard__WEBPACK_IMPORTED_MODULE_4__["default"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 38
+        lineNumber: 35
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Post, {
       title: post.title,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 39
+        lineNumber: 36
       },
       __self: this
     }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-      style: {
-        marginLeft: '10px'
-      },
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 41
+        lineNumber: 37
       },
       __self: this
-    }, post.created_at.slice(0, 10)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      dangerouslySetInnerHTML: {
-        __html: post.body
-      },
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 44
-      },
-      __self: this
-    })));
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("footer", {
+    }, post.created_at.slice(0, 10))));
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    id: "footer",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 52
+      lineNumber: 48
     },
     __self: this
-  }, "Made by Jason, with NextJS for React"));
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("footer", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49
+    },
+    __self: this
+  }, "Made by Jason, with NextJS for React")));
 };
 
 Index.getInitialProps = function () {
