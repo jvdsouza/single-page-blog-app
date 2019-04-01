@@ -20,6 +20,7 @@ const Index = (props) => {
                 <title>My Blog</title>
                 <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"/>
                 <link rel="stylesheet" href="./static/blog.css"/>
+                <script type="text/javascript" src="./static/zenscroll-min.js"></script>
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <meta charSet="utf-8" />
             </Head>
@@ -28,7 +29,7 @@ const Index = (props) => {
                 <h1 id="header"><TypeWriter sentence={"My Blog - By Me."} /></h1>
                 <p>Occasional dissections of life events</p>
                 <br/>
-                <a className="f6 link dim ba bw1 ph3 pv2 mb2 dib white">Begin Reading</a>
+                <a className="f6 link dim ba bw1 ph3 pv2 mb2 dib white" href="#body-wrapper">Begin Reading</a>
             </div>
 
             <div id="body-wrapper">
