@@ -34,7 +34,7 @@ const Index = (props) => {
             </div>
             <br/>
             <div id="blog">
-                <div class='border-wrapper'>
+                <div className='border-wrapper'>
                     <p id="introduction">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                         Vestibulum tincidunt orci nulla, quis venenatis diam facilisis 
