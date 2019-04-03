@@ -178,12 +178,37 @@ body ul {
     background-color: white;
 }
 
+body ul li a {
+    text-decoration: none;
+    width: 100%;
+}
+
+body ul li a div{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    font-weight: bold;
+    color: black;
+}
+
+body ul div:hover {
+    text-decoration: underline;
+    text-decoration-color: black;
+    height: 60px;
+    transition: all 0.5s ease;
+}
+
+
 /* medium phone portrait and large device screen */
 @media only screen 
   and (min-device-width: 540px)
   and (max-device-width: 770px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
+    body {
+        background-size: cover;
+    }
+
     #header-wrapper h1 {
         display: flex;
         flex-flow: column nowrap;
@@ -201,6 +226,10 @@ body ul {
   and (max-device-width: 411px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
+    body {
+        background-size: cover;
+    }
+
     #header-wrapper h1 {
         display: flex;
         flex-flow: column nowrap;
@@ -219,6 +248,10 @@ body ul {
   and (max-device-width: 539px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
+    body {
+        background-size: cover;
+    }
+    
     #header-wrapper h1 {
         display: flex;
         flex-flow: column nowrap;

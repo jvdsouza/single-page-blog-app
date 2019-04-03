@@ -35,7 +35,6 @@ class TypeWriter extends Component {
         return (
             <div>
                 <Head>
-                    <link href="https://fonts.googleapis.com/css?family=Sriracha" rel="stylesheet"></link>
                     <link rel="stylesheet" href="../../static/typewriter.css"/>
                 </Head>
                 <span id="heading">{sentence}</span>

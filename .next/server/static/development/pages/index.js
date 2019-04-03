@@ -256,26 +256,18 @@ function (_Component) {
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("link", {
-        href: "https://fonts.googleapis.com/css?family=Sriracha",
-        rel: "stylesheet",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 38
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("link", {
         rel: "stylesheet",
         href: "../../static/typewriter.css",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 39
+          lineNumber: 38
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("span", {
         id: "heading",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 41
+          lineNumber: 40
         },
         __self: this
       }, sentence));
@@ -1550,7 +1542,7 @@ var Post = function Post(props) {
       lineNumber: 9
     },
     __self: this
-  }, props.title));
+  }, props.children));
 };
 
 var Index = function Index(props) {
@@ -1591,11 +1583,19 @@ var Index = function Index(props) {
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
+    href: "https://fonts.googleapis.com/css?family=Sriracha",
+    rel: "stylesheet",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
     rel: "stylesheet",
     href: "./static/blog.css",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22
+      lineNumber: 23
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("script", {
@@ -1603,7 +1603,7 @@ var Index = function Index(props) {
     src: "./static/zenscroll-min.js",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23
+      lineNumber: 24
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
@@ -1611,54 +1611,54 @@ var Index = function Index(props) {
     content: "width=device-width, initial-scale=1",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24
+      lineNumber: 25
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
     charSet: "utf-8",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25
+      lineNumber: 26
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     id: "header-border",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27
+      lineNumber: 28
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     id: "header-wrapper",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28
+      lineNumber: 29
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
     id: "header",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29
+      lineNumber: 30
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_TypeWriterEffect_TypeWriterEffect__WEBPACK_IMPORTED_MODULE_5__["default"], {
     sentence: "My Blog - By Me.",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29
+      lineNumber: 30
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30
+      lineNumber: 31
     },
     __self: this
   }, "Occasional dissections of life events"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31
+      lineNumber: 32
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -1666,43 +1666,43 @@ var Index = function Index(props) {
     href: "#blog",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32
+      lineNumber: 33
     },
     __self: this
   }, "Begin Reading"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35
+      lineNumber: 36
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     id: "blog",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36
+      lineNumber: 37
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "border-wrapper",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37
+      lineNumber: 38
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     id: "introduction",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38
+      lineNumber: 39
     },
     __self: this
-  }, "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt orci nulla, quis venenatis diam facilisis vel. Nullam posuere tortor vel mauris vestibulum dictum. Vestibulum ut libero pulvinar, aliquam sapien vitae, hendrerit ligula. In ac auctor eros. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam ac efficitur dolor, et luctus ipsum. Ut rutrum dignissim ligula, id sagittis ex feugiat sit amet. Aliquam varius, justo ac scelerisque volutpat, purus nulla aliquet enim, et cursus augue nulla vitae turpis. Duis eu odio mattis, finibus leo in, ultricies risus. Suspendisse non dictum sapien. Duis sit amet auctor ligula, feugiat dapibus urna. Integer id augue nec mauris pellentesque accumsan eget eu ex. Integer ac lacinia erat, at aliquet purus."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+  }, "Hello, welcome to my blog; by me. Currently this blog is under construction, so the posts are bare and merely there to test the blog."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
     style: {
       listStyleType: 'none'
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 52
+      lineNumber: 43
     },
     __self: this
   }, props.postContent.map(function (post, i) {
@@ -1710,29 +1710,41 @@ var Index = function Index(props) {
       key: post._id,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 57
+        lineNumber: 48
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_BlogCard_BlogCard__WEBPACK_IMPORTED_MODULE_4__["default"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 58
+        lineNumber: 49
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Post, {
       title: post.title,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 59
+        lineNumber: 50
       },
       __self: this
-    }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 60
+        lineNumber: 51
       },
       __self: this
-    }, post.created_at.slice(0, 10))));
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 52
+      },
+      __self: this
+    }, post.title), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 53
+      },
+      __self: this
+    }, post.created_at.slice(0, 10))))));
   })))));
 };
 

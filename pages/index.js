@@ -6,7 +6,7 @@ import TypeWriter from '../components/TypeWriterEffect/TypeWriterEffect';
 
 const Post = (props) => (
         <Link prefetch href={`/blogpost?title=${props.title}`}>
-            <a>{props.title}</a>
+            <a>{props.children}</a>
         </Link>
 )
 
@@ -19,6 +19,7 @@ const Index = (props) => {
             <Head>
                 <title>My Blog</title>
                 <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"/>
+                <link href="https://fonts.googleapis.com/css?family=Sriracha" rel="stylesheet"></link>
                 <link rel="stylesheet" href="./static/blog.css"/>
                 <script type="text/javascript" src="./static/zenscroll-min.js"></script>
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -36,18 +37,8 @@ const Index = (props) => {
             <div id="blog">
                 <div className='border-wrapper'>
                     <p id="introduction">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                        Vestibulum tincidunt orci nulla, quis venenatis diam facilisis 
-                        vel. Nullam posuere tortor vel mauris vestibulum dictum. Vestibulum 
-                        ut libero pulvinar, aliquam sapien vitae, hendrerit ligula. In ac 
-                        auctor eros. Vestibulum ante ipsum primis in faucibus orci luctus et 
-                        ultrices posuere cubilia Curae; Nullam ac efficitur dolor, et luctus ipsum. 
-                        Ut rutrum dignissim ligula, id sagittis ex feugiat sit amet. Aliquam varius, 
-                        justo ac scelerisque volutpat, purus nulla aliquet enim, et cursus augue 
-                        nulla vitae turpis. Duis eu odio mattis, finibus leo in, ultricies 
-                        risus. Suspendisse non dictum sapien. Duis sit amet auctor ligula, feugiat 
-                        dapibus urna. Integer id augue nec mauris pellentesque accumsan eget eu 
-                        ex. Integer ac lacinia erat, at aliquet purus.
+                        Hello, welcome to my blog; by me. Currently this blog is under construction,
+                        so the posts are bare and merely there to test the blog. 
                     </p>
                     <ul style={{
                         listStyleType: 'none'
@@ -56,10 +47,14 @@ const Index = (props) => {
                             props.postContent.map((post, i) => (
                                     <li key={post._id}>
                                         <Card>
-                                            <Post title={post.title}/>
-                                            <span>
-                                                {post.created_at.slice(0, 10)}
-                                            </span>
+                                            <Post title={post.title}>
+                                                <div>
+                                                    <span>{post.title}</span>
+                                                    <span>
+                                                        {post.created_at.slice(0, 10)}
+                                                    </span>
+                                                </div>
+                                            </Post>
                                         </Card>
                                     </li>
                                 )
