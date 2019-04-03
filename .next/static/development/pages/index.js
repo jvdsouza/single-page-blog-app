@@ -10934,7 +10934,7 @@ var Index = function Index(props) {
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     className: "f6 link dim ba bw1 ph3 pv2 mb2 dib white",
-    href: "#body-wrapper",
+    href: "#blog",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 32
@@ -10947,7 +10947,7 @@ var Index = function Index(props) {
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    id: "body-wrapper",
+    id: "blog",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 36

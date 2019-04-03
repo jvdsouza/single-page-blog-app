@@ -157,7 +157,7 @@ body ul {
     align-items: center;
 }
 
-#body-wrapper {
+#blog {
     height: 100vh;
     width: 100vw;
     display: flex;
@@ -167,6 +167,7 @@ body ul {
 
 .border-wrapper {
     width: 70vw;
+    height: 70vh;
     border-style: solid;
     border-width: 2px;
     border-color: black;
@@ -178,7 +179,7 @@ body ul {
     background-color: white;
 }
 
-/* /* medium phone portrait and large device screen */
+/* medium phone portrait and large device screen */
 @media only screen 
   and (min-device-width: 540px)
   and (max-device-width: 770px)

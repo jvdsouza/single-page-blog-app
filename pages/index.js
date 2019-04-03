@@ -29,11 +29,11 @@ const Index = (props) => {
                     <h1 id="header"><TypeWriter sentence={"My Blog - By Me."} /></h1>
                     <p>Occasional dissections of life events</p>
                     <br/>
-                    <a className="f6 link dim ba bw1 ph3 pv2 mb2 dib white" href="#body-wrapper">Begin Reading</a>
+                    <a className="f6 link dim ba bw1 ph3 pv2 mb2 dib white" href="#blog">Begin Reading</a>
                 </div>
             </div>
             <br/>
-            <div id="body-wrapper">
+            <div id="blog">
                 <div class='border-wrapper'>
                     <p id="introduction">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
