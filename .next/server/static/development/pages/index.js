@@ -1622,6 +1622,13 @@ var Index = function Index(props) {
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    id: "header-border",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     id: "header-wrapper",
     __source: {
       fileName: _jsxFileName,
@@ -1662,18 +1669,31 @@ var Index = function Index(props) {
       lineNumber: 32
     },
     __self: this
-  }, "Begin Reading")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    id: "body-wrapper",
+  }, "Begin Reading"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 35
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    id: "body-wrapper",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    class: "border-wrapper",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     id: "introduction",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36
+      lineNumber: 38
     },
     __self: this
   }, "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt orci nulla, quis venenatis diam facilisis vel. Nullam posuere tortor vel mauris vestibulum dictum. Vestibulum ut libero pulvinar, aliquam sapien vitae, hendrerit ligula. In ac auctor eros. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam ac efficitur dolor, et luctus ipsum. Ut rutrum dignissim ligula, id sagittis ex feugiat sit amet. Aliquam varius, justo ac scelerisque volutpat, purus nulla aliquet enim, et cursus augue nulla vitae turpis. Duis eu odio mattis, finibus leo in, ultricies risus. Suspendisse non dictum sapien. Duis sit amet auctor ligula, feugiat dapibus urna. Integer id augue nec mauris pellentesque accumsan eget eu ex. Integer ac lacinia erat, at aliquet purus."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
@@ -1682,7 +1702,7 @@ var Index = function Index(props) {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39
+      lineNumber: 52
     },
     __self: this
   }, props.postContent.map(function (post, i) {
@@ -1690,30 +1710,30 @@ var Index = function Index(props) {
       key: post._id,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 44
+        lineNumber: 57
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_BlogCard_BlogCard__WEBPACK_IMPORTED_MODULE_4__["default"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 45
+        lineNumber: 58
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Post, {
       title: post.title,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 46
+        lineNumber: 59
       },
       __self: this
     }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 47
+        lineNumber: 60
       },
       __self: this
     }, post.created_at.slice(0, 10))));
-  }))));
+  })))));
 };
 
 Index.getInitialProps = function () {
