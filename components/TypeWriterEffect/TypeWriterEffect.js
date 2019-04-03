@@ -7,8 +7,7 @@ class TypeWriter extends Component {
         this.state = {
             letterCount: 0,
             sentencePrinted: '',
-            minDelay: 100,
-            maxDelay: 300
+            delay: 150
         }
     }
 
@@ -22,7 +21,7 @@ class TypeWriter extends Component {
     delayedEffect = () => {
         if(this.state.letterCount < this.props.sentence.length){
             this.TypeWriterPrint()
-            setTimeout(this.delayedEffect, Math.random()*(this.state.maxDelay-this.state.minDelay) + this.state.minDelay)
+            setTimeout(this.delayedEffect, this.state.delay)
         }
     }
 

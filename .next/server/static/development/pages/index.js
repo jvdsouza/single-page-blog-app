@@ -221,15 +221,14 @@ function (_Component) {
       if (_this.state.letterCount < _this.props.sentence.length) {
         _this.TypeWriterPrint();
 
-        setTimeout(_this.delayedEffect, Math.random() * (_this.state.maxDelay - _this.state.minDelay) + _this.state.minDelay);
+        setTimeout(_this.delayedEffect, _this.state.delay);
       }
     });
 
     _this.state = {
       letterCount: 0,
       sentencePrinted: '',
-      minDelay: 100,
-      maxDelay: 300
+      delay: 150
     };
     return _this;
   }
@@ -246,13 +245,13 @@ function (_Component) {
       return react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 36
+          lineNumber: 35
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(next_server_head__WEBPACK_IMPORTED_MODULE_8___default.a, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 37
+          lineNumber: 36
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("link", {
@@ -260,14 +259,14 @@ function (_Component) {
         href: "../../static/typewriter.css",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 38
+          lineNumber: 37
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("span", {
         id: "heading",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 40
+          lineNumber: 39
         },
         __self: this
       }, sentence));

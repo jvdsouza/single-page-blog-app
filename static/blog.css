@@ -143,7 +143,7 @@ body {
 /* tachyons button end */
 
 #introduction {
-    width: 50vw;
+    width: 40vw;
     margin-top: 2em;
     margin-bottom: 2em;
 }
@@ -166,9 +166,6 @@ body ul {
 }
 
 .border-wrapper {
-    width: 70vw;
-    border-style: solid;
-    border-width: 2px;
     border-color: black;
     display: flex;
     flex-flow: column nowrap;
@@ -189,13 +186,6 @@ body ul li a div{
     justify-content: space-between;
     font-weight: bold;
     color: black;
-}
-
-body ul div:hover {
-    text-decoration: underline;
-    text-decoration-color: black;
-    height: 60px;
-    transition: all 0.5s ease;
 }
 
 
@@ -219,6 +209,10 @@ body ul div:hover {
     #header-wrapper p {
         font-size: 20px;
     }
+
+    #introduction {
+        width: 70vw;
+    }
 }
 
 /* small phone portrait */
@@ -239,6 +233,10 @@ body ul div:hover {
 
     #header-wrapper p {
         font-size: 10px;
+    }
+
+    #introduction {
+        width: 80vw;
     }
 }
 
@@ -261,6 +259,10 @@ body ul div:hover {
 
     #header-wrapper p {
         font-size: 15px;
+    }
+
+    #introduction {
+        width: 70vw;
     }
 }
 
