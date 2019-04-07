@@ -19,7 +19,7 @@ const Index = (props) => {
             <Head>
                 <title>My Blog</title>
                 <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"/>
-                <link href="https://fonts.googleapis.com/css?family=Sriracha" rel="stylesheet"></link>
+                <link href="https://fonts.googleapis.com/css?family=Sriracha" rel="stylesheet"/>
                 <link rel="stylesheet" href="./static/blog.css"/>
                 <script type="text/javascript" src="./static/zenscroll-min.js"></script>
                 <meta name="viewport" content="width=device-width, initial-scale=1" />

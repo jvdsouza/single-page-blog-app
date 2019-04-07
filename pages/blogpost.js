@@ -12,14 +12,15 @@ const BlogPost = (props) => {
         <div>
             <Head>
                 <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"/>
-                <link rel="stylesheet" href="./static/blog.css"/>
+                <link href="https://fonts.googleapis.com/css?family=Sriracha" rel="stylesheet"/>
+                <link rel="stylesheet" href="./static/BlogPost.css"/>
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <meta charSet="utf-8" />
             </Head>
-            <h1>blog post: {title}</h1>
+            <h1>{title}</h1>
             <div 
-                dangerouslySetInnerHTML={{__html: props.content[0].body}} 
-                style={{marginBottom: "10px"}}>
+                id='blog-body'
+                dangerouslySetInnerHTML={{__html: props.content[0].body}}>
             </div>
             
             <Link href='/#blog'>
