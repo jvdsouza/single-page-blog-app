@@ -40,6 +40,7 @@ const Index = (props) => {
                         Hello, welcome to my blog; by me. Currently this blog is under construction,
                         so the posts are bare and merely there to test the blog. 
                     </p>
+                    <span id='articles'>Articles</span>
                     <ul style={{
                         listStyleType: 'none'
                         }}>
@@ -49,7 +50,7 @@ const Index = (props) => {
                                         <Card>
                                             <Post title={post.title}>
                                                 <div>
-                                                    <span>{post.title}</span>
+                                                    <span>> {post.title}</span>
                                                     <span>
                                                         {post.created_at.slice(0, 10)}
                                                     </span>

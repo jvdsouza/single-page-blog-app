@@ -23,9 +23,11 @@ const BlogPost = (props) => {
                 dangerouslySetInnerHTML={{__html: props.content[0].body}}>
             </div>
             
-            <Link href='/#blog'>
-                <a>Home</a>
-            </Link>
+                <a 
+                    className="f6 link dim ba bw1 ph3 pv2 mb2 dib black"
+                    href='/#blog'>
+                        back to blog
+                </a>
             
         </div>
     )

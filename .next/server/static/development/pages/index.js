@@ -1695,13 +1695,20 @@ var Index = function Index(props) {
       lineNumber: 39
     },
     __self: this
-  }, "Hello, welcome to my blog; by me. Currently this blog is under construction, so the posts are bare and merely there to test the blog."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+  }, "Hello, welcome to my blog; by me. Currently this blog is under construction, so the posts are bare and merely there to test the blog."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    id: "articles",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43
+    },
+    __self: this
+  }, "Articles"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
     style: {
       listStyleType: 'none'
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 43
+      lineNumber: 44
     },
     __self: this
   }, props.postContent.map(function (post, i) {
@@ -1709,38 +1716,38 @@ var Index = function Index(props) {
       key: post._id,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 48
+        lineNumber: 49
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_BlogCard_BlogCard__WEBPACK_IMPORTED_MODULE_4__["default"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 49
+        lineNumber: 50
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Post, {
       title: post.title,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 50
+        lineNumber: 51
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 51
+        lineNumber: 52
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 52
+        lineNumber: 53
       },
       __self: this
-    }, post.title), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    }, "> ", post.title), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 53
+        lineNumber: 54
       },
       __self: this
     }, post.created_at.slice(0, 10))))));

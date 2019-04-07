@@ -149,6 +149,12 @@ body {
     text-justify: inter-word;
 }
 
+#articles {
+    font-weight: 600;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
 body ul {
     display: flex;
     flex-flow: column nowrap;
