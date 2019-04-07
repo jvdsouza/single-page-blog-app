@@ -19,7 +19,6 @@ h1 {
 }
 
 #blog-body {
-    padding-top: 2em;
     margin: 0px;
     display: flex;
     flex-flow: column nowrap;
@@ -27,6 +26,8 @@ h1 {
     font-family: 'Montserrat', sans-serif;
     text-align: justify;
     text-justify: inter-word;
+    padding-top: 2em;
+    padding-bottom: 2em;
 }
 
 a {

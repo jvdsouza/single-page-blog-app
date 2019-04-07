@@ -177,8 +177,8 @@ body ul {
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
-    margin-top: 5em;
-    margin-bottom: 5em;
+    margin-top: 2em;
+    margin-bottom: 2em;
     background-color: white;
 }
 
