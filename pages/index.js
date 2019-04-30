@@ -5,7 +5,7 @@ import Card from '../components/BlogCard/BlogCard';
 import TypeWriter from '../components/TypeWriterEffect/TypeWriterEffect';
 
 const Post = (props) => (
-        <Link prefetch href={`/blogpost?title=${props.title}`}>
+        <Link href={`/blogpost?title=${props.title}`}>
             <a>{props.children}</a>
         </Link>
 )
