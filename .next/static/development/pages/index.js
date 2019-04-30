@@ -10966,11 +10966,38 @@ var Index = function Index(props) {
       lineNumber: 39
     },
     __self: this
-  }, "Hello, welcome to my blog; by me. Currently this blog is under construction, so the posts are bare and merely there to test the blog."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40
+    },
+    __self: this
+  }, "Hello, welcome to my blog; by me. I've finally finished developing the bones and flesh of this blog, and possibly be working on it in the future. However, I deem this blog open!"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 44
+    },
+    __self: this
+  }, "A little about me: I'm a 23 year old self-taught software developer, graduating from Monash University with a Bachelor of Civil Engineering. I've already finished all my subjects, so nothing stands in the way of me learning more about software engineering and development. This blog was meant to be my first big full-stack web developer project I worked on alone (and of course with the help of Google search). The blog consists of using a front-end created with Create-React-App 2.0, a back-end using node.js and express.js, and the MongoDB Atlas Cloud Database (utilised with the mongoose ODM)."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 51
+    },
+    __self: this
+  }, "You can learn more about me on my portfolio, which can be found ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    rel: "noopener noreferrer",
+    target: "_blank",
+    href: "https://jasondsouza.dev",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 52
+    },
+    __self: this
+  }, "here"), ".")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     id: "articles",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 43
+      lineNumber: 55
     },
     __self: this
   }, "Articles"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
@@ -10979,7 +11006,7 @@ var Index = function Index(props) {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 44
+      lineNumber: 56
     },
     __self: this
   }, props.postContent.map(function (post, i) {
@@ -10987,38 +11014,38 @@ var Index = function Index(props) {
       key: post._id,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 49
+        lineNumber: 61
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_BlogCard_BlogCard__WEBPACK_IMPORTED_MODULE_4__["default"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 50
+        lineNumber: 62
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Post, {
       title: post.title,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 51
+        lineNumber: 63
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 52
+        lineNumber: 64
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 53
+        lineNumber: 65
       },
       __self: this
     }, "> ", post.title), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 54
+        lineNumber: 66
       },
       __self: this
     }, post.created_at.slice(0, 10))))));

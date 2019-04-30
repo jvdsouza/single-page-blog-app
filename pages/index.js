@@ -37,8 +37,20 @@ const Index = (props) => {
             <div id="blog">
                 <div className='border-wrapper'>
                     <p id="introduction">
-                        Hello, welcome to my blog; by me. Currently this blog is under construction,
-                        so the posts are bare and merely there to test the blog. 
+                        <p>
+                        Hello, welcome to my blog; by me. I've finally finished developing the bones and flesh of this blog, and possibly be working on it in the future. 
+                        However, I deem this blog open!
+                        </p>
+                        <p>
+                        A little about me: I'm a 23 year old self-taught software developer, graduating from Monash University with a Bachelor of Civil Engineering.
+                        I've already finished all my subjects, so nothing stands in the way of me learning more about software engineering and development. This blog
+                        was meant to be my first big full-stack web developer project I worked on alone (and of course with the help of Google search). The blog consists
+                        of using a front-end created with Create-React-App 2.0, a back-end using node.js and express.js, and the MongoDB Atlas Cloud Database (utilised with
+                        the mongoose ODM).
+                        </p>
+                        <p>
+                        You can learn more about me on my portfolio, which can be found <a rel="noopener noreferrer" target="_blank" href="https://jasondsouza.dev">here</a>.
+                        </p>
                     </p>
                     <span id='articles'>Articles</span>
                     <ul style={{
