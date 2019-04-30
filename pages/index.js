@@ -39,7 +39,7 @@ const Index = (props) => {
                     <p id="introduction">
                         <p>
                         Hello, welcome to my blog; by me. I've finally finished developing the bones and flesh of this blog, and possibly be working on it in the future. 
-                        However, I deem this blog open!
+                        However, this blog is now open for all.
                         </p>
                         <p>
                         A little about me: I'm a 23 year old self-taught software developer, graduating from Monash University with a Bachelor of Civil Engineering.
