@@ -28,6 +28,12 @@ h1 {
     text-justify: inter-word;
     padding-top: 2em;
     padding-bottom: 2em;
+    margin-left: 20%;
+    width: 60%;
+}
+
+#blog-body img {
+    max-width: 100%;
 }
 
 a {

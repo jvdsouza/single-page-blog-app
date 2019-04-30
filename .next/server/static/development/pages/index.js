@@ -1701,7 +1701,7 @@ var Index = function Index(props) {
       lineNumber: 40
     },
     __self: this
-  }, "Hello, welcome to my blog; by me. I've finally finished developing the bones and flesh of this blog, and possibly be working on it in the future. However, I deem this blog open!"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }, "Hello, welcome to my blog; by me. I've finally finished developing the bones and flesh of this blog, and possibly be working on it in the future. However, this blog is now open for all."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 44
